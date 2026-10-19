@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+wandb/
+data/raw/
+data/processed/
+indexes/
+qdrant_storage/
+checkpoints/
+models/
+*.safetensors
