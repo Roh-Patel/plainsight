@@ -41,3 +41,4 @@ typing_extensions==4.16.0
 urllib3==2.8.0
 wandb==0.31.0
 xxhash==4.0.2
+transformers==5.20.2
