@@ -1,3 +1,6 @@
+# GPU setup (RTX 5070, Blackwell): install torch BEFORE the rest, with the CUDA 12.8+ index:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# Verified: torch 2.11.0+cu128
 annotated-types==0.8.0
 anyio==4.15.1
 beautifulsoup4==4.15.0
@@ -42,3 +45,8 @@ urllib3==2.8.0
 wandb==0.31.0
 xxhash==4.0.2
 transformers==5.20.2
+bm25s==0.3.15
+numpy==2.4.6
+PyStemmer==3.1.0
+qdrant-client==1.20.0
+sentence-transformers==6.2.0
