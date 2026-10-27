@@ -1,4 +1,5 @@
 .venv/
+.venv-xcheck/
 __pycache__/
 *.pyc
 .env
