@@ -1,0 +1,133 @@
+transit method | layperson | - | How can a planet crossing in front of its star make the star look slightly dimmer?
+transit method | confused_undergrad | numeric | How does the transit depth translate into a planet-to-star radius ratio?
+transit method | half_remembered_term | multi_paper | What is the difference between a single-transit candidate and a planet with a measured orbital period?
+radial velocity method | layperson | - | How can astronomers detect a planet by measuring a star’s motion rather than seeing the planet?
+radial velocity method | confused_undergrad | acronym | Why does the radial-velocity signal depend on the planet’s mass and the viewing angle?
+radial velocity method | half_remembered_term | numeric | What does an amplitude of a few metres per second tell you about a planet’s orbit and mass?
+radial velocity method | confused_undergrad | multi_paper | How can stellar activity be distinguished from a planet’s radial-velocity signal?
+direct imaging | layperson | - | Why is it so difficult to photograph an exoplanet next to its much brighter star?
+direct imaging | confused_undergrad | numeric | How does angular separation affect whether a telescope can directly image a planet?
+direct imaging | half_remembered_term | acronym | What is a coronagraph doing when astronomers try to image a faint planet?
+direct imaging | layperson | multi_paper | Why are young giant planets often easier to directly image than older, cooler ones?
+gravitational microlensing | layperson | - | How can a planet be detected when its gravity briefly magnifies a distant star?
+gravitational microlensing | confused_undergrad | numeric | How does the planet-to-star mass ratio affect a microlensing signal?
+gravitational microlensing | half_remembered_term | multi_paper | Why can microlensing reveal planets at distances that are hard for transit surveys to reach?
+astrometry | layperson | - | How can a tiny wobble in a star’s position reveal an orbiting planet?
+astrometry | confused_undergrad | numeric | How does the astrometric wobble change with planet mass and distance from its star?
+astrometry | half_remembered_term | acronym | What does astrometric inclination tell us that radial velocity alone may not?
+super-Earths and sub-Neptunes | layperson | - | What makes a super-Earth different from a planet that is simply a larger version of Earth?
+super-Earths and sub-Neptunes | confused_undergrad | numeric | Why can planets with similar radii have very different masses and densities?
+super-Earths and sub-Neptunes | half_remembered_term | multi_paper | What explanations are proposed for the diversity of super-Earth and sub-Neptune interiors?
+super-Earths and sub-Neptunes | confused_undergrad | acronym | How does the mass-radius relation help distinguish rocky planets from volatile-rich ones?
+radius valley | layperson | - | What is the radius valley, and why are there fewer planets at that size?
+radius valley | half_remembered_term | multi_paper | Is the radius valley better explained by atmospheric loss or by how planets formed?
+exoplanet composition and interior structure | layperson | - | How can astronomers infer what an exoplanet is made of without drilling into it?
+exoplanet composition and interior structure | confused_undergrad | numeric | How does a planet’s bulk density constrain its possible iron, rock and water fractions?
+exoplanet composition and interior structure | half_remembered_term | multi_paper | Why can different interior compositions produce nearly identical mass and radius measurements?
+ocean worlds | layperson | - | Could a world have a global ocean without looking anything like Earth?
+ocean worlds | confused_undergrad | numeric | How deep might an ocean beneath an icy crust be, and what controls its thickness?
+hot jupiters | layperson | - | How can a giant planet orbit so close to its star without being pulled apart?
+hot jupiters | confused_undergrad | numeric | Why do hot Jupiters have such a wide range of measured radii despite similar masses?
+hot jupiters | half_remembered_term | acronym | What is the radius inflation problem for hot Jupiters, and what might cause it?
+hot jupiters | confused_undergrad | multi_paper | What evidence helps distinguish high-eccentricity migration from disk-driven migration for hot Jupiters?
+rogue planets | layperson | - | What is a rogue planet, and how could one travel through space without orbiting a star?
+rogue planets | half_remembered_term | numeric | How do astronomers estimate the number of free-floating planets in a galaxy?
+brown dwarfs and planetary-mass companions | layperson | - | Where is the boundary between a very massive planet and a brown dwarf?
+brown dwarfs and planetary-mass companions | confused_undergrad | numeric | Why is deuterium burning sometimes used when classifying brown dwarfs and planetary-mass objects?
+brown dwarfs and planetary-mass companions | half_remembered_term | multi_paper | How can the formation history of a planetary-mass companion be inferred from its properties?
+brown dwarfs and planetary-mass companions | confused_undergrad | acronym | What does the term mass ratio tell us when comparing a companion with its host star?
+exoplanet population statistics | layperson | - | How do astronomers estimate how common planets are when most planets cannot be detected?
+exoplanet population statistics | confused_undergrad | numeric | How do detection completeness and survey selection effects change an occurrence-rate estimate?
+exoplanet population statistics | half_remembered_term | acronym | What is meant by a debiased exoplanet population?
+exoplanet population statistics | confused_undergrad | multi_paper | How can occurrence rates from transit and radial-velocity surveys be compared fairly?
+planetary system architecture | layperson | - | What can the arrangement of planets in a system tell us about how it formed?
+planetary system architecture | confused_undergrad | numeric | How does the spacing between adjacent planets affect the long-term stability of a system?
+planetary system architecture | half_remembered_term | multi_paper | Why do some planetary systems have tightly packed inner planets while others do not?
+m-dwarf planetary systems | layperson | - | Why are small, cool M-dwarf stars interesting places to search for planets?
+m-dwarf planetary systems | confused_undergrad | numeric | How does the habitable-zone distance around an M dwarf compare with that around the Sun?
+m-dwarf planetary systems | half_remembered_term | acronym | What does the spectral type M tell us about a planet’s host star?
+m-dwarf planetary systems | confused_undergrad | multi_paper | How might stellar flares and atmospheric escape affect planets orbiting M dwarfs?
+circumbinary planets | layperson | - | How can a planet orbit two stars at once?
+circumbinary planets | confused_undergrad | numeric | Why must a circumbinary planet orbit beyond a critical distance from the two stars?
+circumbinary planets | half_remembered_term | multi_paper | How do changing stellar positions complicate the detection of transits in circumbinary systems?
+exomoons | layperson | - | How could astronomers tell whether an exoplanet has a moon?
+exomoons | confused_undergrad | numeric | How large would a moon need to be for its gravitational effects to be measurable?
+exoplanet atmospheres | layperson | - | How can we learn what gases are in an atmosphere on a planet light-years away?
+exoplanet atmospheres | confused_undergrad | acronym | What is the difference between a molecular absorption feature and a cloud or haze signature?
+exoplanet atmospheres | half_remembered_term | numeric | How does atmospheric scale height affect the strength of a transmission signal?
+exoplanet atmospheres | confused_undergrad | multi_paper | How can astronomers tell whether a weak spectral feature means a molecule is absent or hidden by clouds?
+transmission spectroscopy | layperson | - | What can starlight passing through a planet’s atmosphere tell us?
+transmission spectroscopy | confused_undergrad | numeric | Why does the transit depth change with wavelength during transmission spectroscopy?
+transmission spectroscopy | half_remembered_term | acronym | What is meant by a transmission spectrum being featureless?
+transmission spectroscopy | confused_undergrad | multi_paper | How can clouds, hazes and atmospheric composition be separated when interpreting a transmission spectrum?
+thermal emission spectroscopy | layperson | - | How can the heat glowing from an exoplanet reveal what its atmosphere contains?
+thermal emission spectroscopy | confused_undergrad | numeric | How does a planet’s dayside temperature affect its thermal emission spectrum?
+thermal emission spectroscopy | half_remembered_term | acronym | What is a secondary eclipse measurement used for in thermal emission observations?
+exoplanet albedo measurements | layperson | - | How much of a star’s light can an exoplanet reflect back into space?
+exoplanet albedo measurements | confused_undergrad | numeric | How does geometric albedo differ from Bond albedo?
+exoplanet albedo measurements | half_remembered_term | multi_paper | What can reflected-light measurements reveal about clouds and surface or atmospheric properties?
+tidally locked planets | layperson | - | What does it mean for a planet to always show the same side to its star?
+tidally locked planets | confused_undergrad | numeric | How does tidal locking depend on a planet’s orbit and internal dissipation?
+planetary habitability | layperson | - | Does being in the habitable zone guarantee that a planet could support life?
+planetary habitability | confused_undergrad | numeric | How do atmospheric pressure and stellar luminosity affect the inner and outer habitable-zone limits?
+planetary habitability | half_remembered_term | acronym | What is the difference between the habitable zone and actual planetary habitability?
+planetary habitability | confused_undergrad | multi_paper | How might magnetic fields, atmospheric loss and stellar activity combine to affect habitability?
+protoplanetary discs | layperson | - | How does a flat disc of gas and dust form around a young star?
+protoplanetary discs | confused_undergrad | numeric | What determines how quickly gas in a protoplanetary disc accretes onto its star?
+protoplanetary discs | half_remembered_term | acronym | What does a disc’s spectral energy distribution reveal about its dust?
+protoplanetary discs | confused_undergrad | multi_paper | How can observations distinguish gaps carved by planets from gaps caused by other disc processes?
+planet formation | layperson | - | How does dust around a young star eventually become a planet?
+planet formation | confused_undergrad | numeric | What limits the growth of planetesimals into planetary embryos?
+planet formation | half_remembered_term | multi_paper | How do planet formation pathways differ between rocky planets and gas giants?
+planet formation | confused_undergrad | acronym | What is the difference between a planetesimal and a planetary embryo?
+core and pebble accretion | layperson | - | How can tiny pebbles help build the core of a planet?
+core and pebble accretion | confused_undergrad | numeric | How does pebble accretion efficiency depend on particle size and relative velocity?
+core and pebble accretion | half_remembered_term | multi_paper | Under what conditions can pebble accretion build a giant planet’s core before the gas disc disperses?
+debris disks | layperson | - | What are debris disks made of if the original planet-forming gas has mostly disappeared?
+debris disks | confused_undergrad | numeric | How does the dust temperature help estimate a debris disk’s distance from its star?
+debris disks | half_remembered_term | multi_paper | How can structures in debris disks provide evidence for unseen planets?
+planetary migration | layperson | - | What can make a planet move inward or outward after it forms?
+planetary migration | confused_undergrad | numeric | How does migration speed depend on the planet’s mass and the gas disc around it?
+planetary migration | half_remembered_term | acronym | What is the difference between Type I and Type II planetary migration?
+orbital stability and resonances | layperson | - | What does it mean for two planets to be in an orbital resonance?
+orbital stability and resonances | confused_undergrad | numeric | How does a 2:1 mean-motion resonance constrain the planets’ orbital periods?
+orbital stability and resonances | half_remembered_term | acronym | What is a Laplace resonance, and how can several moons or planets participate in it?
+orbital stability and resonances | confused_undergrad | multi_paper | How can resonance protect some orbits from close encounters while destabilising others?
+stellar obliquity | layperson | - | What does it mean if a planet orbits in a direction tilted relative to its star’s spin?
+stellar obliquity | confused_undergrad | numeric | How is the sky-projected spin-orbit angle measured during a transit?
+stellar obliquity | half_remembered_term | multi_paper | What can the distribution of stellar obliquities tell us about planetary migration?
+planetary impacts and collisions | layperson | - | How can a giant impact change a planet’s size, atmosphere or rotation?
+planetary impacts and collisions | confused_undergrad | numeric | How does impact velocity affect whether two bodies merge or break apart?
+solar system dynamical history | layperson | - | Could the giant planets have moved from the places where they first formed?
+solar system dynamical history | half_remembered_term | multi_paper | What evidence supports a period of orbital instability among the early giant planets?
+dwarf planets | layperson | - | What makes a dwarf planet different from a planet that has cleared its orbital neighbourhood?
+dwarf planets | confused_undergrad | numeric | How does a dwarf planet’s size and gravity affect whether it can remain in hydrostatic equilibrium?
+dwarf planets | half_remembered_term | acronym | Why is Pluto classified as a dwarf planet rather than one of the eight planets?
+asteroids, comets and meteorites | layperson | - | What clues can a meteorite give us about the early Solar System?
+asteroids, comets and meteorites | confused_undergrad | numeric | How does an asteroid’s albedo affect the size inferred from its brightness?
+asteroids, comets and meteorites | half_remembered_term | acronym | What is the difference between a meteoroid, a meteor and a meteorite?
+asteroids, comets and meteorites | confused_undergrad | multi_paper | How do the compositions and orbits of asteroids and comets help reveal where they formed?
+kuiper belt | layperson | - | What is the Kuiper Belt, and how is it different from the asteroid belt?
+kuiper belt | confused_undergrad | numeric | How does an object’s orbital resonance with Neptune shape its location in the Kuiper Belt?
+kuiper belt | half_remembered_term | multi_paper | What can the different Kuiper Belt populations reveal about Neptune’s migration?
+interstellar objects | layperson | - | How can astronomers tell that an object passing through the Solar System came from another star system?
+interstellar objects | confused_undergrad | numeric | How does a hyperbolic orbit show that an object is not gravitationally bound to the Sun?
+planetary rings | layperson | - | Why do some planets have rings made of countless tiny particles instead of one solid band?
+planetary rings | half_remembered_term | acronym | What is the Roche limit, and why does it matter for ring formation?
+giant planets of the solar system | layperson | - | Why are Jupiter and Saturn mostly gas while Uranus and Neptune are often called ice giants?
+giant planets of the solar system | confused_undergrad | numeric | How do the densities of Jupiter, Saturn, Uranus and Neptune constrain their interior structures?
+giant planets of the solar system | half_remembered_term | acronym | What is meant by metallic hydrogen inside Jupiter and Saturn?
+giant planets of the solar system | confused_undergrad | multi_paper | How do measurements of gravity fields and magnetic fields help distinguish models of giant-planet interiors?
+mars and venus | layperson | - | Why did Mars become cold and dry while Venus became extremely hot?
+mars and venus | confused_undergrad | numeric | How do atmospheric pressure and greenhouse warming differ between Mars and Venus?
+mars and venus | half_remembered_term | multi_paper | What evidence helps reconstruct how water and atmospheres evolved on Mars and Venus?
+titan | layperson | - | How can Titan have rivers and lakes when its surface is far too cold for liquid water?
+titan | confused_undergrad | numeric | What controls the methane cycle and seasonal weather on Titan?
+icy moon geophysics | layperson | - | How can an icy moon have a liquid ocean hidden beneath its surface?
+icy moon geophysics | half_remembered_term | multi_paper | What measurements can distinguish a subsurface ocean from a fully frozen interior?
+star-planet interactions | layperson | - | Can a planet affect the activity or magnetic environment of the star it orbits?
+star-planet interactions | half_remembered_term | acronym | What is meant by a star-planet magnetic interaction?
+stellar activity and flares | layperson | - | How can stellar flares affect planets orbiting close to their stars?
+stellar activity and flares | confused_undergrad | numeric | How does flare frequency and energy vary with stellar age and rotation?
+stellar activity and flares | half_remembered_term | acronym | What is the difference between a stellar flare and a coronal mass ejection?
+stellar activity and flares | confused_undergrad | multi_paper | How can stellar activity imitate or obscure signals used to detect and characterise exoplanets?

@@ -1,0 +1,43 @@
+transit method | detection_transit_rv | 3
+radial velocity method | detection_transit_rv | 4
+direct imaging | detection_other | 4
+gravitational microlensing | detection_other | 3
+astrometry | detection_other | 3
+super-Earths and sub-Neptunes | small_planets | 4
+radius valley | small_planets | 2
+exoplanet composition and interior structure | small_planets | 3
+ocean worlds | small_planets | 2
+hot jupiters | giant_planets | 4
+rogue planets | giant_planets | 2
+brown dwarfs and planetary-mass companions | giant_planets | 4
+exoplanet population statistics | population_systems | 4
+planetary system architecture | population_systems | 3
+m-dwarf planetary systems | population_systems | 4
+circumbinary planets | population_systems | 3
+exomoons | population_systems | 2
+exoplanet atmospheres | atmosphere_obs | 4
+transmission spectroscopy | atmosphere_obs | 4
+thermal emission spectroscopy | atmosphere_obs | 3
+exoplanet albedo measurements | atmosphere_obs | 3
+tidally locked planets | atmosphere_obs | 2
+planetary habitability | habitability | 4
+protoplanetary discs | disc_formation | 4
+planet formation | disc_formation | 4
+core and pebble accretion | disc_formation | 3
+debris disks | disc_formation | 3
+planetary migration | dynamics | 3
+orbital stability and resonances | dynamics | 4
+stellar obliquity | dynamics | 3
+planetary impacts and collisions | dynamics | 2
+solar system dynamical history | dynamics | 2
+dwarf planets | small_bodies | 3
+asteroids, comets and meteorites | small_bodies | 4
+kuiper belt | small_bodies | 3
+interstellar objects | small_bodies | 2
+planetary rings | small_bodies | 2
+giant planets of the solar system | solar_system_worlds | 4
+mars and venus | solar_system_worlds | 3
+titan | solar_system_worlds | 2
+icy moon geophysics | solar_system_worlds | 2
+star-planet interactions | star_planet | 2
+stellar activity and flares | star_planet | 4

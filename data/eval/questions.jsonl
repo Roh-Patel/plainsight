@@ -1,0 +1,133 @@
+{"qid": "eval-0001", "question": "How can a planet crossing in front of its star make the star look slightly dimmer?", "topic": "transit method", "style": "layperson", "tags": []}
+{"qid": "eval-0002", "question": "How does the transit depth translate into a planet-to-star radius ratio?", "topic": "transit method", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0003", "question": "What is the difference between a single-transit candidate and a planet with a measured orbital period?", "topic": "transit method", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0004", "question": "How can astronomers detect a planet by measuring a star’s motion rather than seeing the planet?", "topic": "radial velocity method", "style": "layperson", "tags": []}
+{"qid": "eval-0005", "question": "Why does the radial-velocity signal depend on the planet’s mass and the viewing angle?", "topic": "radial velocity method", "style": "confused_undergrad", "tags": ["acronym"]}
+{"qid": "eval-0006", "question": "What does an amplitude of a few metres per second tell you about a planet’s orbit and mass?", "topic": "radial velocity method", "style": "half_remembered_term", "tags": ["numeric"]}
+{"qid": "eval-0007", "question": "How can stellar activity be distinguished from a planet’s radial-velocity signal?", "topic": "radial velocity method", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0008", "question": "Why is it so difficult to photograph an exoplanet next to its much brighter star?", "topic": "direct imaging", "style": "layperson", "tags": []}
+{"qid": "eval-0009", "question": "How does angular separation affect whether a telescope can directly image a planet?", "topic": "direct imaging", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0010", "question": "What is a coronagraph doing when astronomers try to image a faint planet?", "topic": "direct imaging", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0011", "question": "Why are young giant planets often easier to directly image than older, cooler ones?", "topic": "direct imaging", "style": "layperson", "tags": ["multi_paper"]}
+{"qid": "eval-0012", "question": "How can a planet be detected when its gravity briefly magnifies a distant star?", "topic": "gravitational microlensing", "style": "layperson", "tags": []}
+{"qid": "eval-0013", "question": "How does the planet-to-star mass ratio affect a microlensing signal?", "topic": "gravitational microlensing", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0014", "question": "Why can microlensing reveal planets at distances that are hard for transit surveys to reach?", "topic": "gravitational microlensing", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0015", "question": "How can a tiny wobble in a star’s position reveal an orbiting planet?", "topic": "astrometry", "style": "layperson", "tags": []}
+{"qid": "eval-0016", "question": "How does the astrometric wobble change with planet mass and distance from its star?", "topic": "astrometry", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0017", "question": "What does astrometric inclination tell us that radial velocity alone may not?", "topic": "astrometry", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0018", "question": "What makes a super-Earth different from a planet that is simply a larger version of Earth?", "topic": "super-Earths and sub-Neptunes", "style": "layperson", "tags": []}
+{"qid": "eval-0019", "question": "Why can planets with similar radii have very different masses and densities?", "topic": "super-Earths and sub-Neptunes", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0020", "question": "What explanations are proposed for the diversity of super-Earth and sub-Neptune interiors?", "topic": "super-Earths and sub-Neptunes", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0021", "question": "How does the mass-radius relation help distinguish rocky planets from volatile-rich ones?", "topic": "super-Earths and sub-Neptunes", "style": "confused_undergrad", "tags": ["acronym"]}
+{"qid": "eval-0022", "question": "What is the radius valley, and why are there fewer planets at that size?", "topic": "radius valley", "style": "layperson", "tags": []}
+{"qid": "eval-0023", "question": "Is the radius valley better explained by atmospheric loss or by how planets formed?", "topic": "radius valley", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0024", "question": "How can astronomers infer what an exoplanet is made of without drilling into it?", "topic": "exoplanet composition and interior structure", "style": "layperson", "tags": []}
+{"qid": "eval-0025", "question": "How does a planet’s bulk density constrain its possible iron, rock and water fractions?", "topic": "exoplanet composition and interior structure", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0026", "question": "Why can different interior compositions produce nearly identical mass and radius measurements?", "topic": "exoplanet composition and interior structure", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0027", "question": "Could a world have a global ocean without looking anything like Earth?", "topic": "ocean worlds", "style": "layperson", "tags": []}
+{"qid": "eval-0028", "question": "How deep might an ocean beneath an icy crust be, and what controls its thickness?", "topic": "ocean worlds", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0029", "question": "How can a giant planet orbit so close to its star without being pulled apart?", "topic": "hot jupiters", "style": "layperson", "tags": []}
+{"qid": "eval-0030", "question": "Why do hot Jupiters have such a wide range of measured radii despite similar masses?", "topic": "hot jupiters", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0031", "question": "What is the radius inflation problem for hot Jupiters, and what might cause it?", "topic": "hot jupiters", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0032", "question": "What evidence helps distinguish high-eccentricity migration from disk-driven migration for hot Jupiters?", "topic": "hot jupiters", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0033", "question": "What is a rogue planet, and how could one travel through space without orbiting a star?", "topic": "rogue planets", "style": "layperson", "tags": []}
+{"qid": "eval-0034", "question": "How do astronomers estimate the number of free-floating planets in a galaxy?", "topic": "rogue planets", "style": "half_remembered_term", "tags": ["numeric"]}
+{"qid": "eval-0035", "question": "Where is the boundary between a very massive planet and a brown dwarf?", "topic": "brown dwarfs and planetary-mass companions", "style": "layperson", "tags": []}
+{"qid": "eval-0036", "question": "Why is deuterium burning sometimes used when classifying brown dwarfs and planetary-mass objects?", "topic": "brown dwarfs and planetary-mass companions", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0037", "question": "How can the formation history of a planetary-mass companion be inferred from its properties?", "topic": "brown dwarfs and planetary-mass companions", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0038", "question": "What does the term mass ratio tell us when comparing a companion with its host star?", "topic": "brown dwarfs and planetary-mass companions", "style": "confused_undergrad", "tags": ["acronym"]}
+{"qid": "eval-0039", "question": "How do astronomers estimate how common planets are when most planets cannot be detected?", "topic": "exoplanet population statistics", "style": "layperson", "tags": []}
+{"qid": "eval-0040", "question": "How do detection completeness and survey selection effects change an occurrence-rate estimate?", "topic": "exoplanet population statistics", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0041", "question": "What is meant by a debiased exoplanet population?", "topic": "exoplanet population statistics", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0042", "question": "How can occurrence rates from transit and radial-velocity surveys be compared fairly?", "topic": "exoplanet population statistics", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0043", "question": "What can the arrangement of planets in a system tell us about how it formed?", "topic": "planetary system architecture", "style": "layperson", "tags": []}
+{"qid": "eval-0044", "question": "How does the spacing between adjacent planets affect the long-term stability of a system?", "topic": "planetary system architecture", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0045", "question": "Why do some planetary systems have tightly packed inner planets while others do not?", "topic": "planetary system architecture", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0046", "question": "Why are small, cool M-dwarf stars interesting places to search for planets?", "topic": "m-dwarf planetary systems", "style": "layperson", "tags": []}
+{"qid": "eval-0047", "question": "How does the habitable-zone distance around an M dwarf compare with that around the Sun?", "topic": "m-dwarf planetary systems", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0048", "question": "What does the spectral type M tell us about a planet’s host star?", "topic": "m-dwarf planetary systems", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0049", "question": "How might stellar flares and atmospheric escape affect planets orbiting M dwarfs?", "topic": "m-dwarf planetary systems", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0050", "question": "How can a planet orbit two stars at once?", "topic": "circumbinary planets", "style": "layperson", "tags": []}
+{"qid": "eval-0051", "question": "Why must a circumbinary planet orbit beyond a critical distance from the two stars?", "topic": "circumbinary planets", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0052", "question": "How do changing stellar positions complicate the detection of transits in circumbinary systems?", "topic": "circumbinary planets", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0053", "question": "How could astronomers tell whether an exoplanet has a moon?", "topic": "exomoons", "style": "layperson", "tags": []}
+{"qid": "eval-0054", "question": "How large would a moon need to be for its gravitational effects to be measurable?", "topic": "exomoons", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0055", "question": "How can we learn what gases are in an atmosphere on a planet light-years away?", "topic": "exoplanet atmospheres", "style": "layperson", "tags": []}
+{"qid": "eval-0056", "question": "What is the difference between a molecular absorption feature and a cloud or haze signature?", "topic": "exoplanet atmospheres", "style": "confused_undergrad", "tags": ["acronym"]}
+{"qid": "eval-0057", "question": "How does atmospheric scale height affect the strength of a transmission signal?", "topic": "exoplanet atmospheres", "style": "half_remembered_term", "tags": ["numeric"]}
+{"qid": "eval-0058", "question": "How can astronomers tell whether a weak spectral feature means a molecule is absent or hidden by clouds?", "topic": "exoplanet atmospheres", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0059", "question": "What can starlight passing through a planet’s atmosphere tell us?", "topic": "transmission spectroscopy", "style": "layperson", "tags": []}
+{"qid": "eval-0060", "question": "Why does the transit depth change with wavelength during transmission spectroscopy?", "topic": "transmission spectroscopy", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0061", "question": "What is meant by a transmission spectrum being featureless?", "topic": "transmission spectroscopy", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0062", "question": "How can clouds, hazes and atmospheric composition be separated when interpreting a transmission spectrum?", "topic": "transmission spectroscopy", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0063", "question": "How can the heat glowing from an exoplanet reveal what its atmosphere contains?", "topic": "thermal emission spectroscopy", "style": "layperson", "tags": []}
+{"qid": "eval-0064", "question": "How does a planet’s dayside temperature affect its thermal emission spectrum?", "topic": "thermal emission spectroscopy", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0065", "question": "What is a secondary eclipse measurement used for in thermal emission observations?", "topic": "thermal emission spectroscopy", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0066", "question": "How much of a star’s light can an exoplanet reflect back into space?", "topic": "exoplanet albedo measurements", "style": "layperson", "tags": []}
+{"qid": "eval-0067", "question": "How does geometric albedo differ from Bond albedo?", "topic": "exoplanet albedo measurements", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0068", "question": "What can reflected-light measurements reveal about clouds and surface or atmospheric properties?", "topic": "exoplanet albedo measurements", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0069", "question": "What does it mean for a planet to always show the same side to its star?", "topic": "tidally locked planets", "style": "layperson", "tags": []}
+{"qid": "eval-0070", "question": "How does tidal locking depend on a planet’s orbit and internal dissipation?", "topic": "tidally locked planets", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0071", "question": "Does being in the habitable zone guarantee that a planet could support life?", "topic": "planetary habitability", "style": "layperson", "tags": []}
+{"qid": "eval-0072", "question": "How do atmospheric pressure and stellar luminosity affect the inner and outer habitable-zone limits?", "topic": "planetary habitability", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0073", "question": "What is the difference between the habitable zone and actual planetary habitability?", "topic": "planetary habitability", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0074", "question": "How might magnetic fields, atmospheric loss and stellar activity combine to affect habitability?", "topic": "planetary habitability", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0075", "question": "How does a flat disc of gas and dust form around a young star?", "topic": "protoplanetary discs", "style": "layperson", "tags": []}
+{"qid": "eval-0076", "question": "What determines how quickly gas in a protoplanetary disc accretes onto its star?", "topic": "protoplanetary discs", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0077", "question": "What does a disc’s spectral energy distribution reveal about its dust?", "topic": "protoplanetary discs", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0078", "question": "How can observations distinguish gaps carved by planets from gaps caused by other disc processes?", "topic": "protoplanetary discs", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0079", "question": "How does dust around a young star eventually become a planet?", "topic": "planet formation", "style": "layperson", "tags": []}
+{"qid": "eval-0080", "question": "What limits the growth of planetesimals into planetary embryos?", "topic": "planet formation", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0081", "question": "How do planet formation pathways differ between rocky planets and gas giants?", "topic": "planet formation", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0082", "question": "What is the difference between a planetesimal and a planetary embryo?", "topic": "planet formation", "style": "confused_undergrad", "tags": ["acronym"]}
+{"qid": "eval-0083", "question": "How can tiny pebbles help build the core of a planet?", "topic": "core and pebble accretion", "style": "layperson", "tags": []}
+{"qid": "eval-0084", "question": "How does pebble accretion efficiency depend on particle size and relative velocity?", "topic": "core and pebble accretion", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0085", "question": "Under what conditions can pebble accretion build a giant planet’s core before the gas disc disperses?", "topic": "core and pebble accretion", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0086", "question": "What are debris disks made of if the original planet-forming gas has mostly disappeared?", "topic": "debris disks", "style": "layperson", "tags": []}
+{"qid": "eval-0087", "question": "How does the dust temperature help estimate a debris disk’s distance from its star?", "topic": "debris disks", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0088", "question": "How can structures in debris disks provide evidence for unseen planets?", "topic": "debris disks", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0089", "question": "What can make a planet move inward or outward after it forms?", "topic": "planetary migration", "style": "layperson", "tags": []}
+{"qid": "eval-0090", "question": "How does migration speed depend on the planet’s mass and the gas disc around it?", "topic": "planetary migration", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0091", "question": "What is the difference between Type I and Type II planetary migration?", "topic": "planetary migration", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0092", "question": "What does it mean for two planets to be in an orbital resonance?", "topic": "orbital stability and resonances", "style": "layperson", "tags": []}
+{"qid": "eval-0093", "question": "How does a 2:1 mean-motion resonance constrain the planets’ orbital periods?", "topic": "orbital stability and resonances", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0094", "question": "What is a Laplace resonance, and how can several moons or planets participate in it?", "topic": "orbital stability and resonances", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0095", "question": "How can resonance protect some orbits from close encounters while destabilising others?", "topic": "orbital stability and resonances", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0096", "question": "What does it mean if a planet orbits in a direction tilted relative to its star’s spin?", "topic": "stellar obliquity", "style": "layperson", "tags": []}
+{"qid": "eval-0097", "question": "How is the sky-projected spin-orbit angle measured during a transit?", "topic": "stellar obliquity", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0098", "question": "What can the distribution of stellar obliquities tell us about planetary migration?", "topic": "stellar obliquity", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0099", "question": "How can a giant impact change a planet’s size, atmosphere or rotation?", "topic": "planetary impacts and collisions", "style": "layperson", "tags": []}
+{"qid": "eval-0100", "question": "How does impact velocity affect whether two bodies merge or break apart?", "topic": "planetary impacts and collisions", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0101", "question": "Could the giant planets have moved from the places where they first formed?", "topic": "solar system dynamical history", "style": "layperson", "tags": []}
+{"qid": "eval-0102", "question": "What evidence supports a period of orbital instability among the early giant planets?", "topic": "solar system dynamical history", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0103", "question": "What makes a dwarf planet different from a planet that has cleared its orbital neighbourhood?", "topic": "dwarf planets", "style": "layperson", "tags": []}
+{"qid": "eval-0104", "question": "How does a dwarf planet’s size and gravity affect whether it can remain in hydrostatic equilibrium?", "topic": "dwarf planets", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0105", "question": "Why is Pluto classified as a dwarf planet rather than one of the eight planets?", "topic": "dwarf planets", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0106", "question": "What clues can a meteorite give us about the early Solar System?", "topic": "asteroids, comets and meteorites", "style": "layperson", "tags": []}
+{"qid": "eval-0107", "question": "How does an asteroid’s albedo affect the size inferred from its brightness?", "topic": "asteroids, comets and meteorites", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0108", "question": "What is the difference between a meteoroid, a meteor and a meteorite?", "topic": "asteroids, comets and meteorites", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0109", "question": "How do the compositions and orbits of asteroids and comets help reveal where they formed?", "topic": "asteroids, comets and meteorites", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0110", "question": "What is the Kuiper Belt, and how is it different from the asteroid belt?", "topic": "kuiper belt", "style": "layperson", "tags": []}
+{"qid": "eval-0111", "question": "How does an object’s orbital resonance with Neptune shape its location in the Kuiper Belt?", "topic": "kuiper belt", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0112", "question": "What can the different Kuiper Belt populations reveal about Neptune’s migration?", "topic": "kuiper belt", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0113", "question": "How can astronomers tell that an object passing through the Solar System came from another star system?", "topic": "interstellar objects", "style": "layperson", "tags": []}
+{"qid": "eval-0114", "question": "How does a hyperbolic orbit show that an object is not gravitationally bound to the Sun?", "topic": "interstellar objects", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0115", "question": "Why do some planets have rings made of countless tiny particles instead of one solid band?", "topic": "planetary rings", "style": "layperson", "tags": []}
+{"qid": "eval-0116", "question": "What is the Roche limit, and why does it matter for ring formation?", "topic": "planetary rings", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0117", "question": "Why are Jupiter and Saturn mostly gas while Uranus and Neptune are often called ice giants?", "topic": "giant planets of the solar system", "style": "layperson", "tags": []}
+{"qid": "eval-0118", "question": "How do the densities of Jupiter, Saturn, Uranus and Neptune constrain their interior structures?", "topic": "giant planets of the solar system", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0119", "question": "What is meant by metallic hydrogen inside Jupiter and Saturn?", "topic": "giant planets of the solar system", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0120", "question": "How do measurements of gravity fields and magnetic fields help distinguish models of giant-planet interiors?", "topic": "giant planets of the solar system", "style": "confused_undergrad", "tags": ["multi_paper"]}
+{"qid": "eval-0121", "question": "Why did Mars become cold and dry while Venus became extremely hot?", "topic": "mars and venus", "style": "layperson", "tags": []}
+{"qid": "eval-0122", "question": "How do atmospheric pressure and greenhouse warming differ between Mars and Venus?", "topic": "mars and venus", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0123", "question": "What evidence helps reconstruct how water and atmospheres evolved on Mars and Venus?", "topic": "mars and venus", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0124", "question": "How can Titan have rivers and lakes when its surface is far too cold for liquid water?", "topic": "titan", "style": "layperson", "tags": []}
+{"qid": "eval-0125", "question": "What controls the methane cycle and seasonal weather on Titan?", "topic": "titan", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0126", "question": "How can an icy moon have a liquid ocean hidden beneath its surface?", "topic": "icy moon geophysics", "style": "layperson", "tags": []}
+{"qid": "eval-0127", "question": "What measurements can distinguish a subsurface ocean from a fully frozen interior?", "topic": "icy moon geophysics", "style": "half_remembered_term", "tags": ["multi_paper"]}
+{"qid": "eval-0128", "question": "Can a planet affect the activity or magnetic environment of the star it orbits?", "topic": "star-planet interactions", "style": "layperson", "tags": []}
+{"qid": "eval-0129", "question": "What is meant by a star-planet magnetic interaction?", "topic": "star-planet interactions", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0130", "question": "How can stellar flares affect planets orbiting close to their stars?", "topic": "stellar activity and flares", "style": "layperson", "tags": []}
+{"qid": "eval-0131", "question": "How does flare frequency and energy vary with stellar age and rotation?", "topic": "stellar activity and flares", "style": "confused_undergrad", "tags": ["numeric"]}
+{"qid": "eval-0132", "question": "What is the difference between a stellar flare and a coronal mass ejection?", "topic": "stellar activity and flares", "style": "half_remembered_term", "tags": ["acronym"]}
+{"qid": "eval-0133", "question": "How can stellar activity imitate or obscure signals used to detect and characterise exoplanets?", "topic": "stellar activity and flares", "style": "confused_undergrad", "tags": ["multi_paper"]}

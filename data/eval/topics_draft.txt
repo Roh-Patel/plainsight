@@ -1,0 +1,43 @@
+transit method | transit method, transit photometry, planetary transit, transit survey, transit detection, transit light curve, transit timing
+radial velocity method | radial velocity, radial-velocity, Doppler method, Doppler spectroscopy, stellar reflex motion, RV method, radial velocity measurements
+direct imaging | direct imaging, directly imaged planet, imaged exoplanet, high-contrast imaging, coronagraph, starshade, adaptive optics
+gravitational microlensing | gravitational microlensing, microlensing, microlensing event, planetary microlensing, lensing light curve, microlensing planet
+astrometry | astrometry, astrometric signal, astrometric orbit, astrometric detection, Gaia astrometry, astrometric wobble
+super-Earths and sub-Neptunes| super-Earth, super-Earths, super Earth, super-Earth planet, rocky super-Earth, terrestrial super-Earth, sub-Neptune, sub-Neptunes, sub Neptune, sub-Neptune planet, sub-Neptune planets, sub-Neptune-sized planet, mini-Neptune, mini-Neptunes, mini Neptune, sub-Neptune-sized, Neptune-like small planet
+hot jupiters | hot Jupiter, hot Jupiters, hot-Jupiter, close-in giant planet, highly irradiated giant planet
+rogue planets | rogue planet, rogue planets, free-floating planet, free-floating planets, unbound planet, planetary-mass object, isolated planetary-mass object
+ocean worlds | ocean world, ocean worlds, water world, water worlds, water-rich planet, global ocean, ocean-bearing planet
+exoplanet composition and interior structure | exoplanet interior, planetary interior structure, interior model, core-mantle structure, interior composition, interior modelling, exoplanet composition, planetary composition, bulk composition, elemental composition, rocky composition, volatile-rich planet, water-rich composition
+radius valley | radius gap, radius valley, Fulton gap, evaporation valley, photoevaporation valley, sub-Neptune radius valley
+tidally locked planets | tidally locked, tidal locking, synchronous rotation, synchronous rotator, spin-orbit synchronization, permanent dayside, permanent nightside
+exoplanet atmospheres | atmospheric chemistry, exoplanet chemistry, chemical equilibrium, disequilibrium chemistry, photochemistry, molecular abundances, atmospheric formation, planetary atmosphere formation, atmosphere formation, atmosphere accretion, primordial atmosphere, primary atmosphere, secondary atmosphere, atmospheric evolution
+planetary habitability | planetary habitability, habitable planet, potentially habitable, habitability assessment, surface habitability, habitable environment, habitability of exoplanets, habitable zone, circumstellar habitable zone, circumstellar habitable zones, conservative habitable zone, optimistic habitable zone, habitable-zone boundaries, liquid water zone
+m-dwarf planetary systems | M dwarf, M-dwarf, M dwarfs, M-dwarfs, red dwarf, red dwarfs, low-mass star planetary system, planets around M dwarfs
+exomoons | exomoon, exomoons, extrasolar moon, extrasolar moons, moon around exoplanet, exomoon detection, satellite of an exoplanet
+circumbinary planets | circumbinary planet, circumbinary planets, binary-star planet, planet around binary stars, planet in a binary system, eclipsing binary planet, S-type planet, P-type planet, circumstellar binary disc, circumbinary disc, circumbinary disk
+protoplanetary discs | protoplanetary disc, protoplanetary discs, protoplanetary disk, protoplanetary disks, circumstellar disc, circumstellar disk, young stellar disk, planet-forming disc
+planet formation | planet formation, planetary formation, formation of planets, planet formation theory, planetesimal formation, planetary embryos, terrestrial planet formation, giant planet formation
+core and pebble accretion | core accretion, core-accretion, core accretion model, core accretion theory, gas accretion onto core, critical core mass, pebble accretion, pebble-accretion, pebble accretion model, pebble accretion efficiency, pebble isolation mass
+planetary migration | planetary migration, planet migration, orbital migration, migration of planets, disc-driven migration, disk-driven migration, Type I migration, Type II migration, high-eccentricity migration
+orbital stability and resonances | orbital stability, dynamical stability, long-term stability, orbital instability, N-body stability, chaotic dynamics, stable planetary system, orbital resonance, orbital resonances, mean-motion resonance, mean motion resonance, resonant chain, resonant configuration, Laplace resonance, resonance capture
+planetary impacts and collisions | giant impact, giant impacts, planetary collision, planetary collisions, impact origin, impact-generated, collisional evolution, planetesimal collision
+planetary rings | planetary rings, ring system, ring systems, ring dynamics, ring-moon interaction, ring moon interactions, Saturn's rings, ring formation
+icy moon geophysics | icy moon, icy moons, icy satellite, icy satellites, Europa geophysics, Enceladus geophysics, ice shell dynamics, cryovolcanism, subsurface ocean, subsurface oceans, internal ocean, internal oceans, global subsurface ocean, ocean beneath the surface
+dwarf planets | dwarf planet, dwarf planets, Pluto, Ceres, Eris, Makemake, Haumea, trans-Neptunian dwarf planet
+asteroids, comets and meteorites | asteroid, asteroids, comet, comets, meteorite, meteorites, minor planets, primitive bodies, small Solar System bodies
+kuiper belt | Kuiper Belt, Kuiper-belt, trans-Neptunian object, trans-Neptunian objects, TNO, TNOs, classical Kuiper belt, resonant Kuiper belt object
+transmission spectroscopy | transmission spectroscopy, transmission spectrum, transmission spectra, transit spectroscopy, transit transmission spectrum, atmospheric transmission
+star-planet interactions | star-planet interaction, star-planet interactions, stellar-planetary interaction, magnetic star-planet interaction, tidal star-planet interaction, planetary space weather
+exoplanet population statistics | exoplanet population, exoplanet populations, occurrence rate, occurrence rates, planet occurrence, population synthesis, demographic study, exoplanet demographics, intrinsic population
+thermal emission spectroscopy | thermal emission spectroscopy, emission spectroscopy, thermal emission spectrum, emission spectra, dayside emission, planetary emission spectrum, secondary eclipse spectroscopy
+exoplanet albedo measurements | exoplanet albedo, geometric albedo, Bond albedo, planetary albedo, reflected light, reflected-light spectrum, optical phase curve, albedo measurement
+debris disks | debris disc, debris disk, exozodiacal, dust belt
+stellar activity and flares | stellar flare, stellar activity, starspot, coronal mass ejection
+giant planets of the solar system | ice giant, uranus, jupiter's, saturn's, jovian, juno
+mars and venus | mars\b, martian, venus\b, venusian, runaway greenhouse
+titan | titan\b
+interstellar objects | interstellar object, interstellar comet, oumuamua, borisov, 3i/atlas
+solar system dynamical history | nice model, grand tack, early solar system, solar system formation, late heavy bombardment, planet nine
+planetary system architecture | system architecture, peas in a pod, multi-planet system, multiplanet system, mutual inclination
+brown dwarfs and planetary-mass companions | brown dwarf, substellar companion, planetary-mass companion
+stellar obliquity | stellar obliquity, rossiter, spin-orbit alignment, spin-orbit misalignment, spin-orbit angle
