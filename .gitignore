@@ -12,3 +12,4 @@ qdrant_storage/
 checkpoints/
 models/
 *.safetensors
+scratch_runs/
