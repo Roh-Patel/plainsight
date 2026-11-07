@@ -50,3 +50,4 @@ numpy==2.4.6
 PyStemmer==3.1.0
 qdrant-client==1.20.0
 sentence-transformers==6.2.0
+anthropic==2.3.0
