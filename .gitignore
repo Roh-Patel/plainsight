@@ -7,6 +7,9 @@ wandb/
 data/raw/
 data/processed/*
 !data/processed/splits.json
+data/synthetic/raw/
+data/synthetic/queries.jsonl
+data/synthetic/gen_log.jsonl
 indexes/
 qdrant_storage/
 checkpoints/

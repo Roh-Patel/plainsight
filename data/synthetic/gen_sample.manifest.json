@@ -1,0 +1,28 @@
+{
+  "seed": 14,
+  "cap_per_paper": 15,
+  "min_tokens": 100,
+  "min_function_word_fraction": 0.15,
+  "pilot_size": 500,
+  "shard_size": 5000,
+  "excluded_files": [
+    "scratch_synth\\sample_dev.jsonl",
+    "scratch_synth\\sample_fresh.jsonl"
+  ],
+  "n_excluded": 100,
+  "n": 30815,
+  "n_papers": 2106,
+  "shard_sizes": {
+    "0": 500,
+    "1": 5000,
+    "2": 5000,
+    "3": 5000,
+    "4": 5000,
+    "5": 5000,
+    "6": 5000,
+    "7": 315
+  },
+  "passages_lines": 116356,
+  "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+  "created": "2026-11-07T02:34:14"
+}
