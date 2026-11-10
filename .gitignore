@@ -10,6 +10,8 @@ data/processed/*
 data/synthetic/raw/
 data/synthetic/queries.jsonl
 data/synthetic/gen_log.jsonl
+data/synthetic/ranks/*.npy
+data/synthetic/ranks/ranks.jsonl
 indexes/
 qdrant_storage/
 checkpoints/

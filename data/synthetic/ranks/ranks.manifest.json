@@ -1,0 +1,20 @@
+{
+ "n": 73767,
+ "k": 100,
+ "rrf_k": 60,
+ "systems": [
+  "bm25",
+  "dense_base",
+  "hybrid_base"
+ ],
+ "dense_backend": "numpy",
+ "dense_batch_size": 128,
+ "chunk": 4096,
+ "limit": 0,
+ "rank_base": 1,
+ "qids_sha256": "8f0ca7fafa7ba0f71d11ecec22e1db6e33397c98bdb86858c25f49d35688f265",
+ "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+ "passages_lines": 116356,
+ "seconds": 96.5,
+ "created": "2026-11-08T11:11:42"
+}
