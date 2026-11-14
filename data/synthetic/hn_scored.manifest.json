@@ -1,0 +1,13 @@
+{
+ "n_queries": 69317,
+ "model": "BAAI/bge-reranker-base",
+ "input": "text, pair truncation only_second, max_length 512, query cap 128 tokens",
+ "pool": "hybrid_base ranks 10-50, train papers only, source paper excluded",
+ "order": "queries.jsonl order, kept queries only",
+ "batch_size": 32,
+ "chunk_queries": 300,
+ "passages_lines": 116356,
+ "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+ "qids_sha256": "8f0ca7fafa7ba0f71d11ecec22e1db6e33397c98bdb86858c25f49d35688f265",
+ "created": "2026-11-10T23:52:54"
+}

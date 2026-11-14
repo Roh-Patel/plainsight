@@ -1,0 +1,14 @@
+{
+ "n_queries": 69317,
+ "n_negatives": 764375,
+ "pool": "hybrid_base ranks 10-50, train papers only, source paper excluded",
+ "ce_threshold": -6.0,
+ "ce_rule": "drop a candidate if its bge-reranker-base logit (text input, D024/D026) is above the threshold",
+ "near_dup_tau": 0.8,
+ "near_dup_rule": "drop a candidate that is the source passage of another query (kept or dropped, different source passage) with dense_base query-query cosine >= tau, QUERY_PREFIX applied",
+ "queries_never_dropped_for_few_negatives": true,
+ "scored_file_sha256": "538278c6eecc306842c5275a51bac436aecf1be2498da4426fa300fdda6b93a5",
+ "passages_lines": 116356,
+ "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+ "created": "2026-11-13T02:33:57"
+}

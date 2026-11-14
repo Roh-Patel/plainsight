@@ -12,6 +12,8 @@ data/synthetic/queries.jsonl
 data/synthetic/gen_log.jsonl
 data/synthetic/ranks/*.npy
 data/synthetic/ranks/ranks.jsonl
+data/synthetic/hn_scored.jsonl
+data/synthetic/hard_negatives.jsonl
 indexes/
 qdrant_storage/
 checkpoints/
