@@ -1,4 +1,4 @@
-"""Build data/synthetic/train_triples.jsonl for T16 (IDs only, no text).
+"""Build data/synthetic/train_triples.jsonl(IDs only, no text).
 Dry run by default; --write creates the file and never overwrites."""
 import argparse
 import json

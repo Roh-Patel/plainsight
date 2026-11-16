@@ -1,4 +1,4 @@
-"""Draw the val-split passage sample for the T16 dev set (queries generated later)."""
+"""Draw the val-split passage sample for the dev set (queries generated later)."""
 import argparse
 import json
 import os

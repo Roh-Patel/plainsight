@@ -1,4 +1,4 @@
-"""Step 9: run NoDuplicatesBatchSampler on the real triples and measure batch composition.
+"""Run NoDuplicatesBatchSampler on the real triples and measure batch composition.
 No model, no GPU, writes nothing."""
 import argparse
 import json
