@@ -1,0 +1,11 @@
+{
+ "n": 69317,
+ "n_with_negative": 64443,
+ "n_without_negative": 4874,
+ "k": 1,
+ "seed": 24,
+ "rule": "one negative drawn uniformly from the retained negatives of hard_negatives.jsonl",
+ "hard_negatives_sha256": "51e3951373e2125eca3e701ad9d2cf39f858248d8a30fa1a5a25a51e41a9d062",
+ "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+ "created": "2026-11-15T00:28:29"
+}

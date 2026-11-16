@@ -1,0 +1,1 @@
+{"shard": 0, "batch_id": "msgbatch_01NZf8EZyhhKEp5bPi9x1ZAP", "n_requests": 2973, "prompt_version": "v5", "prompt_sha256": "b2547cb4946614816cdf9a1f755c3b7c03d639d95e27272fae021160fed71c63", "model": "claude-haiku-5-5", "max_tokens": 4000, "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681", "created": "2026-11-14T16:26:17"}

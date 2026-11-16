@@ -1,0 +1,17 @@
+{
+  "split": "val",
+  "seed": 18,
+  "cap_per_paper": 10,
+  "min_tokens": 100,
+  "min_function_word_fraction": 0.15,
+  "n_val_papers": 301,
+  "n_eligible": 11097,
+  "n": 2973,
+  "n_papers": 301,
+  "shard_sizes": {
+    "0": 2973
+  },
+  "passages_lines": 116356,
+  "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+  "created": "2026-11-14T15:14:19"
+}
