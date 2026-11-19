@@ -3,7 +3,7 @@
 Round 1: scratch_synth\\round1\\ (hardest retained negatives under t = 0, seed 20).
 Round 2: scratch_synth\\ (hardest retained negatives under t = -5, seed 22).
 Uses negative items only (120 per round). CPU only, writes nothing.
-Run from the repo root: python -m train.negative_review_sweep [--thresholds -5 -6 -7 -8]
+Run from the repo root: python -m analysis.negatives.negative_review_sweep [--thresholds -5 -6 -7 -8]
 
 Limit: items are re-scored under each cut. After a real change the hardest retained
 negative would be a different candidate, and round 1 items come from a different pool

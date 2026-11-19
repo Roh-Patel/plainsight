@@ -68,9 +68,9 @@ Main ladder is 1 to 6. Fine-tuning: sentence-transformers, cached MNRL, fp16 (em
 
 ```
 plainsight/
-  ingest/  retrieval/  data/  train/  eval/  app/  tests/  runs/  results/
+  ingest/  retrieval/  data/  train/  eval/  app/  tests/  runs/  results/  analysis/
 ```
-`models/` and most of `data/` are local and gitignored.
+`models/` and most of `data/` are local and gitignored. `ingest/`, `retrieval/`, `train/` and `eval/` hold the pipeline. `analysis/` holds the one-off studies behind individual decisions (see `analysis/README.md`).
 
 ### 8. Deliverables
 - Fine-tuned models and the query dataset (queries and passage IDs only) on Hugging Face, with model cards.

@@ -3,7 +3,7 @@
 Part 1 (CPU): positive-vs-candidate separation per voice and stratum, from hn_scored.jsonl.
 Part 2 (GPU): the 120 hand-graded rank-review queries. Scores the best-ranked
 non-source passage ("competitor", hand label B) and the source passage for each query.
-Writes nothing. Run from the repo root: python -m train.calibrate_filter
+Writes nothing. Run from the repo root: python -m analysis.negatives.calibrate_filter
 """
 import json
 import random

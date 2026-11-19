@@ -1,7 +1,7 @@
 """Hard-negative candidate pool: how many candidates survive each exclusion rule.
 
 CPU only. Reads the frozen files and prints tables. Writes nothing.
-Run from the repo root: python -m train.survey_negatives
+Run from the repo root: python -m analysis.negatives.survey_negatives
 """
 import json
 from collections import defaultdict

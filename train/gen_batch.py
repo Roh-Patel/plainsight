@@ -12,8 +12,7 @@ from pathlib import Path
 import anthropic
 
 from train.draw_gen_sample import sha256_file
-from train.gen_dev import MODEL, parse
-from train.query_prompt import PROMPT_VERSION, SYSTEM, user_message
+from train.query_prompt import PROMPT_VERSION, SYSTEM, VOICES, user_message
 
 PASSAGES = Path("data/processed/passages.jsonl")
 DENSE_MANIFEST = Path("data/processed/index/dense_base.manifest.json")
@@ -22,12 +21,34 @@ SAMPLE_MANIFEST = Path("data/synthetic/gen_sample.manifest.json")
 BATCHES = Path("data/synthetic/batches.jsonl")
 RAW_DIR = Path("data/synthetic/raw")
 MAX_TOKENS = 4000
+MODEL = "claude-haiku-5-5"
 ID_RE = re.compile(r"^[a-zA-Z0-9_-]{1,64}$")
 MAX_BATCH_BYTES = 200 * 1024 * 1024
 PARSE_FAIL_MAX = 0.01   # gate: parse failures (not truncated) must be below this rate
 TRUNC_MAX = 0.02        # gate: stop_reason == max_tokens must be below this rate
 BATCH_IN, BATCH_OUT = 0.05, 0.25  # USD per million tokens, assumed from public pricing
 PROMPT_SHA = hashlib.sha256(SYSTEM.encode("utf-8")).hexdigest()
+
+
+def parse(raw):
+    """Return (obj or None, error string)."""
+    s = raw.strip()
+    i, j = s.find("{"), s.rfind("}")
+    if i < 0 or j < i:
+        return None, "no json object"
+    try:
+        obj = json.loads(s[i:j + 1])
+    except json.JSONDecodeError as e:
+        return None, f"json error: {e}"
+    if not isinstance(obj, dict) or not isinstance(obj.get("usable"), bool):
+        return None, "missing boolean usable"
+    if obj["usable"]:
+        q = obj.get("queries")
+        if not isinstance(q, dict) or set(q) != set(VOICES):
+            return None, "queries keys wrong"
+        if not all(isinstance(q[v], str) and q[v].strip() for v in VOICES):
+            return None, "empty or non-string query"
+    return obj, ""
 
 
 def cid(point_id):
@@ -251,7 +272,7 @@ def cmd_gate(args):
     (RAW_DIR / f"shard_{args.shard}.gate.json").write_text(
         json.dumps(gate, indent=2) + "\n", encoding="utf-8")
     print("gate", "PASSED" if passed else "FAILED",
-          "(form checks via train.check_dev are separate)")
+          "(form checks via analysis.queries.check_dev are separate)")
 
 
 def main():

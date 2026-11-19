@@ -1,6 +1,6 @@
 """Time bge-reranker-base on real pool-C pairs and project the full scoring run.
 
-GPU. Writes nothing. Run from the repo root: python -m train.time_reranker
+GPU. Writes nothing. Run from the repo root: python -m analysis.negatives.time_reranker
 Pool C = hybrid_base ranks 10-50, train papers only, minus the source paper.
 """
 import json

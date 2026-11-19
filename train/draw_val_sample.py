@@ -7,7 +7,7 @@ from collections import Counter, defaultdict
 from datetime import datetime
 
 from train.draw_gen_sample import DENSE_MANIFEST, sha256_file
-from train.survey_eligible import MIN_FW, MIN_TOKENS, PASSAGES, SPLITS, fw_fraction
+from train.eligibility import MIN_FW, MIN_TOKENS, PASSAGES, SPLITS, fw_fraction
 
 OUT_DIR = "data/synthetic_val"
 OUT = f"{OUT_DIR}/gen_sample.jsonl"

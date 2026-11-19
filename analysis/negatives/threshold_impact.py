@@ -2,7 +2,7 @@
 
 CPU only, reads hn_scored.jsonl and ranks.jsonl, writes nothing.
 A candidate is dropped when its reranker logit is above t.
-Run from the repo root: python -m train.threshold_impact [--thresholds -7 -6 -5 -4 -3]
+Run from the repo root: python -m analysis.negatives.threshold_impact [--thresholds -7 -6 -5 -4 -3]
 """
 import argparse
 import json

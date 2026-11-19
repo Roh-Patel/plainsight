@@ -7,31 +7,10 @@ from pathlib import Path
 
 import anthropic
 
-from train.query_prompt import PROMPT_VERSION, SYSTEM, VOICES, user_message
+from train.gen_batch import MODEL, parse
+from train.query_prompt import PROMPT_VERSION, SYSTEM, user_message
 
 PASSAGES = Path("data/processed/passages.jsonl")
-MODEL = "claude-haiku-5-5"
-
-
-def parse(raw):
-    """Return (obj or None, error string)."""
-    s = raw.strip()
-    i, j = s.find("{"), s.rfind("}")
-    if i < 0 or j < i:
-        return None, "no json object"
-    try:
-        obj = json.loads(s[i:j + 1])
-    except json.JSONDecodeError as e:
-        return None, f"json error: {e}"
-    if not isinstance(obj, dict) or not isinstance(obj.get("usable"), bool):
-        return None, "missing boolean usable"
-    if obj["usable"]:
-        q = obj.get("queries")
-        if not isinstance(q, dict) or set(q) != set(VOICES):
-            return None, "queries keys wrong"
-        if not all(isinstance(q[v], str) and q[v].strip() for v in VOICES):
-            return None, "empty or non-string query"
-    return obj, ""
 
 
 def main():

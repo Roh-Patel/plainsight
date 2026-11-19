@@ -1,8 +1,8 @@
 """Blind hand check of retained hard negatives (residual false-negative rate).
 
-  python -m train.make_negative_review sample [--seed N]
+  python -m analysis.negatives.make_negative_review sample [--seed N]
       writes scratch_synth\\neg_review.txt, neg_review.tsv (to fill in), neg_review_key.json
-  python -m train.make_negative_review analyze
+  python -m analysis.negatives.make_negative_review analyze
       reads the filled TSV and the key; prints rates with 95% Wilson intervals
 
 Each voice gets N_NEG queries, each shown with its hardest retained negative (lowest

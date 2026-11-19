@@ -7,7 +7,7 @@ import random
 from collections import Counter, defaultdict
 from datetime import datetime
 
-from train.survey_eligible import MIN_FW, MIN_TOKENS, PASSAGES, SPLITS, fw_fraction
+from train.eligibility import MIN_FW, MIN_TOKENS, PASSAGES, SPLITS, fw_fraction
 
 DENSE_MANIFEST = "data/processed/index/dense_base.manifest.json"
 OUT = "data/synthetic/gen_sample.jsonl"

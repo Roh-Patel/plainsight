@@ -33,8 +33,8 @@ data/
     synthetic_val/  gen_sample.jsonl|.manifest.json  batches.jsonl  raw/  gen_log.jsonl
                   queries.jsonl  dev/{tag}.json
                   rr_dev_candidates.jsonl|.manifest.json  rr_dev/{tag}.json
-  eval/questions.jsonl  qrels.tsv (planned)
-eval/topics.txt  eval/questions_draft.txt  eval/label_audit.jsonl (planned)
+  eval/questions.jsonl  questions_draft.txt  topics.txt  topics_draft.txt  qrels.tsv (planned)
+eval/label_audit.jsonl (planned)
 runs/{system}.jsonl
 results/{experiment}.json  results/per_query/{system}.jsonl
 models/embedder/{tag}/checkpoint-{step}/ and final/   (gitignored)
@@ -262,8 +262,8 @@ Written by `train/train_reranker.py`. Hugging Face folders `epoch-{n}` (model we
 ```
 `style`: `layperson`, `confused_undergrad` or `half_remembered_term`. `tags`: possibly empty list from `acronym`, `numeric`, `multi_paper`, set at write time before any retrieval output was seen. `topic` matches a row of `eval/topics.txt`.
 
-### eval/topics.txt, eval/questions_draft.txt
-Not under data/. `topics.txt`: one row per topic, `topic | family | n_questions` (43 topics, 12 families). `questions_draft.txt`: hand-written source, `topic | style | tags | question` (`-` for no tags). Read only by `eval/validate_questions.py`.
+### data/eval/topics.txt, topics_draft.txt, questions_draft.txt
+`topics_draft.txt`: one row per topic, `topic | comma-separated title/abstract keywords`, read by `eval/topic_coverage.py` and `analysis/eval/topic_spotcheck.py`. `topics.txt`: one row per topic, `topic | family | n_questions` (43 topics, 12 families). `questions_draft.txt`: hand-written source, `topic | style | tags | question` (`-` for no tags). Read only by `eval/validate_questions.py`.
 
 ### eval/qrels.tsv (planned, T19/T20)
 Tab-separated, TREC style, no header: `qid  0  passage_id  grade`. Grades: 0 not relevant, 1 partially relevant, 2 answers the question.

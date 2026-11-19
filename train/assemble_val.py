@@ -10,7 +10,7 @@ import train.gen_batch_val as gbv  # importing it redirects gen_batch paths to d
 from train.apply_filters import ORDER, form_reasons, norm
 from train.assemble_queries import read_jsonl, write_jsonl
 from train.query_prompt import VOICES
-from train.survey_eligible import SPLITS
+from train.eligibility import SPLITS
 
 VAL = Path("data/synthetic_val")
 OUT_Q = VAL / "queries.jsonl"

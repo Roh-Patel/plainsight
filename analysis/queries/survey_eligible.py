@@ -1,23 +1,10 @@
-"""Survey eligible train passages per paper to choose a per-paper sampling cap."""
+"""Survey eligible train passages per paper to choose a per-paper sampling cap (D042)."""
 import json
 from collections import Counter
 
-from ingest.chunk import STOP
+from train.eligibility import MIN_FW, MIN_TOKENS, PASSAGES, SPLITS, fw_fraction
 
-PASSAGES = "data/processed/passages.jsonl"
-SPLITS = "data/processed/splits.json"
-MIN_TOKENS = 100
-MIN_FW = 0.15
 TARGET = 30000
-STRIP = ".,;:!?()[]{}\"'"
-
-
-def fw_fraction(text):
-    words = text.split()
-    if not words:
-        return 0.0
-    hits = sum(1 for w in words if w.lower().strip(STRIP) in STOP)
-    return hits / len(words)
 
 
 def main():

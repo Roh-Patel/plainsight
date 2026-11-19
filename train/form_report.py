@@ -1,5 +1,5 @@
 """Report-only form checks over data/synthetic/queries.jsonl.
-Regexes and helpers are copied from train/check_dev.py. Writes nothing but a sample file."""
+Regexes and helpers are copied from analysis/queries/check_dev.py. Writes nothing but a sample file."""
 import json
 import random
 import re
@@ -16,7 +16,7 @@ SAMPLES = Path("scratch_synth/form_samples.txt")
 VOICES = ("layperson", "confused_undergrad", "half_remembered_term")
 SEED = 16
 
-# copied from train/check_dev.py
+# copied from analysis/queries/check_dev.py
 BANNED = ["the paper", "the authors", "this study", "the passage", "the text",
           "the article", "the researchers", "the section", "the figure", "the table"]
 DEIXIS = re.compile(r"\b(this|these)\b|\bsuch\b(?! as\b)", re.I)

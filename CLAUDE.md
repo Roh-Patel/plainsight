@@ -9,6 +9,7 @@ Operating instructions for Claude Code and similar tools. The project record its
 - `docs/PLAN.md`: purpose, design, task list with status (imported above).
 - `docs/DECISIONS.md`: every decision (Dnnn), pipeline commands, numbers by task, open questions. Large (about 25k tokens), so read the relevant section on demand rather than all of it. Grep for `**Dnnn**` or `**Tnn**`.
 - `docs/SCHEMAS.md`: file formats and data contracts. Read before writing code that reads or writes any data file.
+- `analysis/`: one-off studies that produced the evidence for specific decisions. Pipeline code must never import from it. New one-off surveys and hand-check samplers go here, not in the pipeline packages; delete pure debug printouts once a test covers them.
 
 ## Hard rules
 

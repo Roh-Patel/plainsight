@@ -7,7 +7,7 @@ from pathlib import Path
 
 from train.gen_batch import MODEL, RAW_DIR, SAMPLE, check_hashes, cid, submitted
 from train.query_prompt import VOICES
-from train.survey_eligible import SPLITS
+from train.eligibility import SPLITS
 
 OUT_Q = Path("data/synthetic/queries.jsonl")
 OUT_LOG = Path("data/synthetic/gen_log.jsonl")
