@@ -26,4 +26,3 @@ models/
 *.safetensors
 scratch_runs/
 scratch_synth/
-docs/
