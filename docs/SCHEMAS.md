@@ -34,7 +34,7 @@ data/
                   queries.jsonl  dev/{tag}.json
                   rr_dev_candidates.jsonl|.manifest.json  rr_dev/{tag}.json
   eval/questions.jsonl  questions_draft.txt  topics.txt  topics_draft.txt  qrels.tsv (planned)
-eval/label_audit.jsonl (planned)
+        label_audit.jsonl (planned)  raw/ (planned)
 runs/{system}.jsonl
 results/{experiment}.json  results/per_query/{system}.jsonl
 models/embedder/{tag}/checkpoint-{step}/ and final/   (gitignored)
@@ -265,15 +265,18 @@ Written by `train/train_reranker.py`. Hugging Face folders `epoch-{n}` (model we
 ### data/eval/topics.txt, topics_draft.txt, questions_draft.txt
 `topics_draft.txt`: one row per topic, `topic | comma-separated title/abstract keywords`, read by `eval/topic_coverage.py` and `analysis/eval/topic_spotcheck.py`. `topics.txt`: one row per topic, `topic | family | n_questions` (43 topics, 12 families). `questions_draft.txt`: hand-written source, `topic | style | tags | question` (`-` for no tags). Read only by `eval/validate_questions.py`.
 
-### eval/qrels.tsv (planned, T19/T20)
-Tab-separated, TREC style, no header: `qid  0  passage_id  grade`. Grades: 0 not relevant, 1 partially relevant, 2 answers the question.
+### data/eval/qrels.tsv (planned, T19/T20)
+Tab-separated, TREC style, no header: `qid  0  passage_id  grade`. Grades: 0 does not address the question, 1 partially answers it or gives needed background, 2 answers the question. One row per pool pair (4,770), grade = `final` from label_audit.jsonl (D066). Read by `eval/evaluate.py` (default `--qrels`). Tracked.
 
-### eval/label_audit.jsonl (planned, T20)
-Tracks label source separately from qrels. Path to be confirmed at T19.
+### data/eval/label_audit.jsonl (planned, T19/T20)
+One row per pool pair (D066). IDs and grades only, tracked. `p1`, `p2`: Sonnet 5.5 grades under the two prompt wordings (`null` after two failed responses). `owner`: blind owner grade or `null`. `in_sample`: in the seed-29 random sample of 250. `disagree`: `p1 != p2` or either is `null`. `final`: `owner` if set, else the shared LLM grade. `source`: `owner` or `llm`.
 
 ```json
-{"qid": "eval-0001", "passage_id": "...", "llm_grade": 2, "human_grade": 2, "reviewed": true}
+{"qid": "eval-0001", "passage_id": "...", "p1": 2, "p2": 1, "owner": 2, "in_sample": false, "disagree": true, "final": 2, "source": "owner"}
 ```
+
+### data/eval/raw/ (planned, T19)
+Gitignored. Verbatim Batch API results for both prompt wordings, saved before parsing. Never delete.
 
 ### runs/{system}.jsonl
 System names: `bm25`, `dense_base`, `dense_ft`, `hybrid_base`, `hybrid_base_rerank_base`, `hybrid_ft_embed`, `hybrid_ft_embed_rerank_ft`.

@@ -9,6 +9,7 @@ data/processed/*
 !data/processed/splits.json
 data/synthetic/raw/
 data/synthetic_val/raw/
+data/eval/raw/
 data/synthetic/queries.jsonl
 data/synthetic/gen_log.jsonl
 data/synthetic/train_triples.jsonl
