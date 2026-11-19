@@ -1,0 +1,11 @@
+{
+ "n": 6524,
+ "depth": 50,
+ "rrf_k": 60,
+ "bm25": "val-only index, D020 settings",
+ "dense_rows": "dense_ft.npy, val rows",
+ "embedder": "models/embedder/emb-v1/checkpoint-810",
+ "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+ "qids_sha256": "796b686961ee1bd9825e44ec6ccdc54c70b104d1d2ef6516a2232e756da2ea82",
+ "created": "2026-11-18T18:00:50"
+}

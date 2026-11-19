@@ -18,6 +18,7 @@ data/synthetic/hn_scored.jsonl
 data/synthetic/hard_negatives.jsonl
 data/synthetic_val/queries.jsonl
 data/synthetic_val/gen_log.jsonl
+data/synthetic_val/rr_dev_candidates.jsonl
 indexes/
 qdrant_storage/
 checkpoints/
@@ -25,3 +26,4 @@ models/
 *.safetensors
 scratch_runs/
 scratch_synth/
+docs/
