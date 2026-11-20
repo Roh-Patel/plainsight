@@ -1,0 +1,29 @@
+{
+ "systems": [
+  "bm25",
+  "dense_base",
+  "dense_ft",
+  "hybrid_base",
+  "hybrid_base_rerank_base",
+  "hybrid_ft_embed",
+  "hybrid_ft_embed_rerank_ft"
+ ],
+ "depth": 10,
+ "n_pairs": 4770,
+ "n_questions": 133,
+ "seed": 29,
+ "n_sample": 250,
+ "sample_rule": "random.Random(seed).sample(range(n_pairs), n_sample) over pairs sorted by (qid, passage_id)",
+ "runs_sha256": {
+  "bm25": "bd7a80120a1effa2c851b305e546c574d1552bb10b95b9f2b2a6d3d35787d064",
+  "dense_base": "2a6be59494f35b0461c91f85bc16a7209ad939c58942ba970aa219f97ee94c77",
+  "dense_ft": "65114fa81db1b135cc82dd73fba7dfbeffd86719e9ebaaa9c070b2685b0e7184",
+  "hybrid_base": "b2f74bba7ca3adbfe9d0a62360b1a1ced441f1ae610a99bf432a033a0d398c89",
+  "hybrid_base_rerank_base": "a8176ada7a74747ab39744c79001e0c47cc4f4348e9ae8c7a44a7efa2d2afdc6",
+  "hybrid_ft_embed": "f2f65ab129bdbad77bbba4403f4f6c89d72bcfa9873457c35a3429a551123697",
+  "hybrid_ft_embed_rerank_ft": "d308ca40ebeb434f5180dbcfc46f7ce7b429de686331dcf169b85e5240f04da2"
+ },
+ "questions_sha256": "3e92380f00594d7ed515fcd039f0a1d2a5121c94b5212be22e775b673a15db63",
+ "passages_sha256": "0fa7ebbb856b544f45bc33b826248fbe4587e69af420a972787e81dead69f681",
+ "created": "2026-11-20T01:18:53"
+}

@@ -34,7 +34,7 @@ data/
                   queries.jsonl  dev/{tag}.json
                   rr_dev_candidates.jsonl|.manifest.json  rr_dev/{tag}.json
   eval/questions.jsonl  questions_draft.txt  topics.txt  topics_draft.txt  qrels.tsv (planned)
-        label_audit.jsonl (planned)  raw/ (planned)
+        pool.jsonl|.manifest.json  label_audit.jsonl (planned)  raw/ (planned)
 runs/{system}.jsonl
 results/{experiment}.json  results/per_query/{system}.jsonl
 models/embedder/{tag}/checkpoint-{step}/ and final/   (gitignored)
@@ -265,6 +265,14 @@ Written by `train/train_reranker.py`. Hugging Face folders `epoch-{n}` (model we
 ### data/eval/topics.txt, topics_draft.txt, questions_draft.txt
 `topics_draft.txt`: one row per topic, `topic | comma-separated title/abstract keywords`, read by `eval/topic_coverage.py` and `analysis/eval/topic_spotcheck.py`. `topics.txt`: one row per topic, `topic | family | n_questions` (43 topics, 12 families). `questions_draft.txt`: hand-written source, `topic | style | tags | question` (`-` for no tags). Read only by `eval/validate_questions.py`.
 
+### data/eval/pool.jsonl and manifest
+Written by `eval/build_pool.py --write` (T19), refuses to overwrite; `--check` rebuilds and compares. One row per judgment pair (4,770), sorted by `qid` then `passage_id`. IDs only, tracked.
+
+```json
+{"qid": "eval-0001", "passage_id": "2401.01234::003::002", "in_sample": false}
+```
+`in_sample`: in the D066 owner random sample (250 pairs, `random.Random(29).sample` over row indices). Manifest keys: `systems`, `depth` (10), `n_pairs`, `n_questions`, `seed`, `n_sample`, `sample_rule`, `runs_sha256` (per system), `questions_sha256`, `passages_sha256`, `created`.
+
 ### data/eval/qrels.tsv (planned, T19/T20)
 Tab-separated, TREC style, no header: `qid  0  passage_id  grade`. Grades: 0 does not address the question, 1 partially answers it or gives needed background, 2 answers the question. One row per pool pair (4,770), grade = `final` from label_audit.jsonl (D066). Read by `eval/evaluate.py` (default `--qrels`). Tracked.
 
@@ -318,3 +326,4 @@ Written by `eval/evaluate.py` (T09). One row per question per system. T21 and T2
 | 2026-11-09 | `synthetic/queries.jsonl`: T14 set `kept` and `drop_reason` |
 | 2026-11-17 | Added system `dense_ft` to runs (D060) |
 | 2026-11-19 | Added system `hybrid_ft_embed_rerank_ft` to runs (D065) |
+| 2026-11-20 | Added `data/eval/pool.jsonl` (D066) |
