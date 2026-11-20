@@ -1,4 +1,4 @@
-"""T19 judgment pool and owner random sample (D036, D066).
+"""T19 judgment pool and the human reviewer's random sample (D036, D066).
 
 Pool: union of the top 10 of the seven run files per question, deduplicated.
 Sample: 250 pairs drawn uniformly with random.Random(29) from the pool sorted
