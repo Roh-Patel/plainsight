@@ -50,7 +50,7 @@ Main ladder is 1 to 6. Fine-tuning: sentence-transformers, cached MNRL, fp16 (em
 
 ### 5. Evaluation
 - Test set: 133 hand-written learner questions over 43 topics (D031 to D033). Frozen.
-- Labels: top 10 of every system pooled per question (D036, 4,770 pairs). Claude Sonnet 5.5 grades each pair 0 to 2 twice, with two prompt wordings. The owner grades, blind, every pair where the two disagree plus a fixed random sample of 250. Report kappa (D066).
+- Labels: top 10 of every system pooled per question (D036, 4,770 pairs). Claude Sonnet 5.5 grades each pair 0 to 2 twice, with two prompt wordings. A human reviewer grades, blind, every pair where the two disagree plus a fixed random sample of 250. Report kappa (D066).
 - Metrics (D028): nDCG@10 is the single primary metric. Also Recall@10/20, MRR@10, paper-level hit. Report judged@10 and judged@20 per system.
 - Statistics (D029): bootstrap CIs, paired tests with Holm correction over six pre-fixed comparisons.
 - Generalisation: the index holds all papers. Report gold from held-out test papers separately from train papers (D034).
@@ -79,7 +79,7 @@ plainsight/
 
 ## Current status
 
-2026-11-19. T01 to T18 done: all seven systems have run files in `runs/`. Next is T19 under D066: build the 4,770-pair pool, draw the 250-pair owner sample (seed 29), write and hash the two grading prompts, run the 20-pair format pilot, then submit the grading batches after the owner approves the cost estimate.
+2026-11-20. T01 to T18 done. T19 under D066 in progress: the 4,770-pair pool and the 250-pair human-review sample (seed 29) are built, the grading prompts P1 and P2 are frozen, and the 20-pair format pilot is submitted. Next: collect the pilot, update the cost estimate from its token counts, then submit the main grading batches once the estimate is approved.
 
 ## Tasks
 
@@ -107,7 +107,7 @@ Done when: the seven-system ablation table exists with confidence intervals and 
 - [x] T17 Fine-tuned index, runs for dense_ft and hybrid_ft_embed
 - [x] T18 Fine-tune the reranker on the D050 negatives (D061; the LLM-judge filter failed validation; rr-v1 epoch-1 selected)
 - [ ] T19 Pool the top 10 of all seven systems per question, Sonnet 5.5 pre-grades 0 to 2
-- [ ] T20 Owner review of P1/P2 disagreements plus the 250-pair random sample, record kappa (D066)
+- [ ] T20 Human review of P1/P2 disagreements plus the 250-pair random sample, record kappa (D066)
 - [ ] T21 Full ablation with bootstrap CIs and paired tests
 - [ ] T22 Held-out-vs-train split, vocabulary-gap analysis, charts
 

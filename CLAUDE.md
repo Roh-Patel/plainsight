@@ -14,7 +14,7 @@ Operating instructions for Claude Code and similar tools. The project record its
 ## Hard rules
 
 - **Never tune on, or look at system output for, the 133 eval questions** (`data/eval/questions.jsonl`, frozen, D033). Dev sets in `data/synthetic_val/` exist for selection.
-- **Declare before measuring.** Metrics, selection rules, thresholds and comparisons are written as a DECISIONS entry before the data that tests them is seen. Propose the entry to the owner first.
+- **Declare before measuring.** Metrics, selection rules, thresholds and comparisons are written as a DECISIONS entry before the data that tests them is seen. Propose the entry to the user first.
 - **No deadlines (D059).** Do not drop, shorten or reorder tasks for time.
 - **Raw full text stays local (D006).** Never commit or upload passage text, queries or HTML.
 - **`--force` is forbidden** on `draw_gen_sample`, `assemble_queries`, `apply_filters`, `rank_queries`, `draw_val_sample`, `assemble_val`, `make_runs`, `make_runs_ft`. Never rerun `make_runs_ft` or `make_runs_rerank_ft` once T19 starts (D035). Never rebuild `hard_negatives.jsonl` without a new decision.
@@ -25,7 +25,7 @@ Operating instructions for Claude Code and similar tools. The project record its
 ## Environment
 
 - Windows 11, Python 3.11.1 in `.venv` (`.venv/Scripts/python.exe`), RTX 5070 12 GB. Run everything from the repo root as modules: `python -m pkg.module`.
-- Commands given to the owner to run themselves use **cmd syntax** (e.g. `models\reranker\...`, `set VAR=...`). Claude's own shell tools are bash/PowerShell; that is fine for Claude's own use.
+- Commands given to the user to run themselves use **cmd syntax** (e.g. `models\reranker\...`, `set VAR=...`). Claude's own shell tools are bash/PowerShell; that is fine for Claude's own use.
 - Tests: `.venv/Scripts/python.exe -m pytest tests -q` (58 pass as of 2026-11-19).
 - Qdrant 1.20.0 runs in Docker as container `qdrant` on 127.0.0.1:6333. `ranx` is only in `.venv-xcheck`.
 - W&B project `plainsight`. Secrets in `.env` (never read aloud or commit).
