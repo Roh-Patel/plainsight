@@ -1,13 +1,14 @@
 """T19 grading batches (D066): claude-sonnet-5-5 grades pool pairs under prompts P1 and P2.
 
-  python -m eval.grade_batch dry-run --stage pilot|main   build requests, print counts, no API call
-  python -m eval.grade_batch submit  --stage pilot|main   submit (refuses if the stage was submitted)
-  python -m eval.grade_batch status  --stage pilot|main
-  python -m eval.grade_batch collect --stage pilot|main   save verbatim results, then parse
+  python -m eval.grade_batch dry-run --stage STAGE   build requests, print counts, no API call
+  python -m eval.grade_batch submit  --stage STAGE   submit (refuses if the stage was submitted)
+  python -m eval.grade_batch status  --stage STAGE
+  python -m eval.grade_batch collect --stage STAGE   save verbatim results, then parse
 
-Stages: pilot = 20 non-sample pool pairs (seed 30) x 2 prompts, format check only, grades are
-never stored or printed. main = all 4,770 pairs x 2 prompts. One user message per request, no
-system prompt, default thinking and effort, max_tokens 4000. Results live in data/eval/raw/
+Stages: pilot and pilot2 = the same 20 non-sample pool pairs (seed 30) x 2 prompts, format check
+only, grades never stored or printed. pilot ran without a response schema; pilot2 and main use
+OUTPUT_FORMAT (structured outputs, D066 amendment). main = all 4,770 pairs x 2 prompts. One user
+message per request, no system prompt, default thinking and effort, max_tokens 4000. Results live in data/eval/raw/
 (gitignored, never delete *.api.jsonl). The API key is read from the environment or .env.
 """
 import argparse
@@ -31,6 +32,11 @@ VERSIONS = ("p1", "p2")
 FROZEN_SHA256 = {"p1": "ae16a6acfbd4a78317602c783fa579a59e0e6167591d85e0112d18275bd65725",
                  "p2": "4730926c27991757ecb121c9ef10ec80984b9a5df8d857933272b523453f2165"}
 PILOT_SEED, PILOT_N = 30, 20
+STAGES = ("pilot", "pilot2", "main")
+OUTPUT_FORMAT = {"type": "json_schema",
+                 "schema": {"type": "object",
+                            "properties": {"grade": {"type": "integer", "enum": [0, 1, 2]}},
+                            "required": ["grade"], "additionalProperties": False}}
 BATCH_IN, BATCH_OUT = 1.00, 5.00  # USD per million tokens, Sonnet 5.5 batch (50% of $2 / $10)
 POOL = Path("data/eval/pool.jsonl")
 POOL_MANIFEST = Path("data/eval/pool.manifest.json")
@@ -102,9 +108,11 @@ def build_requests(stage, rows):
         for i, r in rows:
             p = pas[r["passage_id"]]
             prompt = build(v, qs[r["qid"]], title[p["paper_id"]], p["section_title"], p["text"])
-            reqs.append({"custom_id": cid(stage, v, i),
-                         "params": {"model": MODEL, "max_tokens": MAX_TOKENS,
-                                    "messages": [{"role": "user", "content": prompt}]}})
+            params = {"model": MODEL, "max_tokens": MAX_TOKENS,
+                      "messages": [{"role": "user", "content": prompt}]}
+            if stage != "pilot":
+                params["output_config"] = {"format": OUTPUT_FORMAT}
+            reqs.append({"custom_id": cid(stage, v, i), "params": params})
     return reqs
 
 
@@ -135,14 +143,15 @@ def cmd_submit(args):
     man = checks()
     if rec_path(args.stage).exists():
         sys.exit(f"{rec_path(args.stage)} exists; stage already submitted")
-    if args.stage == "main" and not (RAW / "pilot.jsonl").exists():
-        sys.exit("collect the pilot before submitting main")
+    if args.stage == "main" and not (RAW / "pilot2.jsonl").exists():
+        sys.exit("collect pilot2 before submitting main")
     reqs = build_requests(args.stage, stage_rows(args.stage, load_pool()))
     c = client()
     RAW.mkdir(parents=True, exist_ok=True)
     batch = c.messages.batches.create(requests=reqs)
     rec = {"stage": args.stage, "batch_id": batch.id, "n_requests": len(reqs), "model": MODEL,
            "max_tokens": MAX_TOKENS, "thinking": "api default", "effort": "api default",
+           "output_format": None if args.stage == "pilot" else OUTPUT_FORMAT,
            "prompt_sha256": PROMPT_SHA256, "pool_manifest_sha256": sha256_file(POOL_MANIFEST),
            "passages_sha256": man["passages_sha256"], "created": datetime.now().isoformat(timespec="seconds")}
     rec_path(args.stage).write_text(json.dumps(rec, indent=1) + "\n", encoding="utf-8", newline="\n")
@@ -193,7 +202,7 @@ def cmd_collect(args):
                 row.update(stop_reason=msg["stop_reason"], input_tokens=msg["usage"]["input_tokens"],
                            output_tokens=msg["usage"]["output_tokens"], grade=g)
             row["ok"] = row["grade"] is not None
-            if args.stage == "pilot":
+            if args.stage != "main":
                 row["grade"] = None  # D066: pilot grades are not read
             out.append(row)
     with out_path.open("w", encoding="utf-8", newline="\n") as f:
@@ -217,7 +226,7 @@ def cmd_collect(args):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("cmd", choices=["dry-run", "submit", "status", "collect"])
-    ap.add_argument("--stage", choices=["pilot", "main"], required=True)
+    ap.add_argument("--stage", choices=STAGES, required=True)
     args = ap.parse_args()
     {"dry-run": cmd_dry_run, "submit": cmd_submit, "status": cmd_status, "collect": cmd_collect}[args.cmd](args)
 
